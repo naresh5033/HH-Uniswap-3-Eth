@@ -33,11 +33,19 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Deployed contracts 
+## uniswap Dapp
 
-CustomDex - 
-Customtoken - 
+This is uniswap clone dapp, where the user has to connect the wallet to access the dapp, once he logged in the user can ve option to swap the coins (in the Pool) for the test eth once he swapped the coins he ve an option to swap back to eth .\
+
+contract Dex.sol is an ERC20 contract, Hardhat was used to deploy the contract in goerli Testnet.
+
+For the frontend i used React, Tailwind for styling and Wagmi.
+
+## Deployed contracts
+
+CustomDex - 0xd2206731ca7Eaa4277Ac13f6ddCc67D2ffE63B34
+Customtoken - 0x12Cad7A787de63439cc31E55D0cDf6262185Ee34
 
 ## Deployment
 
-The app is deployed in Heroku and the deployed Url is - 
+The Dapp is deployed in Heroku and the deployed Url is - https://uniswap-3-eth.herokuapp.com/
